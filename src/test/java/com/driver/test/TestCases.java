@@ -21,7 +21,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 import static org.mockito.Mockito.*;
 
-//@RunWith(MockitoJUnitRunner.class)
-//public class TestCases {
-//}
+@RunWith(MockitoJUnitRunner.class)
+public class TestCases {
+}
 
