@@ -23,11 +23,13 @@ public class TripBooking {
     @JoinColumn
     private Customer customer;
 
+
     @ManyToOne
     @JoinColumn
     private Driver tripdriver;
 
-    public TripBooking() {
+
+  public TripBooking() {
     }
 
     public TripBooking(String fromLocation, String toLocation, int distanceInkm, TripStatus status, int bill) {
