@@ -1,7 +1,6 @@
 package com.driver.model;
 
 import javax.persistence.*;
-
 @Entity
 @Access(value = AccessType.FIELD)
 public class Admin {
